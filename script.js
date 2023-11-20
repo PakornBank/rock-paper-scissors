@@ -84,6 +84,8 @@ const playerChoiceDisplay = document.getElementById("playerChoice");
 
 const computerChoiceDisplay = document.getElementById("computerChoice");
 
+const resetButton = document.getElementById("reset");
+
 reset();
 
 buttons.forEach((button) => {
@@ -93,4 +95,8 @@ buttons.forEach((button) => {
     }
     game(button.id);
   });
+});
+
+resetButton.addEventListener("click", (event) => {
+  reset();
 });
