@@ -1,0 +1,63 @@
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+button {
+    background-color: grey;
+    padding: 30px 60px;
+    border-radius: 10px;
+}
+
+header h1 {
+    text-align: center;
+}
+
+/* Score Board */
+
+.scoreBoard {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.scoreBoard .bottom {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 100px;
+}
+
+.player {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.computer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.result {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.result .middle {
+    display: flex;
+    width: 50%;
+    justify-content: space-evenly;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.chooseTitle {
+    text-align: center;
+}

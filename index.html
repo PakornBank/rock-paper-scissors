@@ -3,8 +3,50 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Rock Paper Scissors</title>
-    <script src="script.js"></script>
+    <title>Fire Water Ice</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" async></script>
   </head>
-  <body></body>
+  <body>
+    <header>
+      <h1>Fire! Water! Ice!</h1>
+    </header>
+
+    <main>
+      <div class="scoreBoard">
+        <div class="winner" id="winner">Winner displayed here!</div>
+        <div class="scores">
+          <h1>Scores</h1>
+          <div class="bottom">
+            <div class="player">
+              Player
+              <div id="playerScore">0</div>
+            </div>
+            <div class="computer">
+              Computer
+              <div id="computerScore">0</div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="result">
+        <h1 class="top">Result</h1>
+        <div class="middle">
+          <p id="playerChoice">playerChoice</p>
+          <p>:</p>
+          <p id="computerChoice">computerChoice</p>
+        </div>
+        <div class="bottom" id="result">win or lose</div>
+      </div>
+
+      <h1 class="chooseTitle">Choose your element</h1>
+
+      <div class="buttons">
+        <button id="Fire">Fire</button><button id="Water">Water</button
+        ><button id="Ice">Ice</button>
+      </div>
+    </main>
+    <footer></footer>
+  </body>
 </html>
